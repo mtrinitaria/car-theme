@@ -77,7 +77,7 @@ a{ transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:a
 #header .head_login a{ background:#d7001c; color:#fff; border:0; font-size: 12px;
 }
 
-#home_banner{ background:#000;  height: 776px; margin-top:23px;}
+#home_banner{ background:#000;  height: 776px; margin-top:85px;}
 .home_banner{ position:relative;}
 .home_banner_images images{ width:100%}
 #slider_menu{ position:absolute; z-index:999; left:0; display:none; right:0; bottom:0;}
@@ -623,7 +623,8 @@ a{ transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:a
 .top-text-panel{
 	width: 100%;
 	position:absolute;
-	margin-top: 10%;
+	top: 120px;
+	/*margin-top: 10%;*/
 	/*margin-top: 17%;*/
 }
 .top-text{

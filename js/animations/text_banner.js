@@ -4,11 +4,19 @@
   var currentIndex = 0;
   var texts;
   var textsLi;
+  var ticker;
 
   var rotateTexts = function() {
-    if (currentIndex >= textsLi.length - 3) {
+    if (currentIndex >= textsLi.length - 2) {
       currentIndex = 0;
-      texts.style.marginTop = '0px';
+      texts.classList.remove('animated');
+      setTimeout(function(){
+        texts.style.marginTop = '0px';
+        textBannerInit();
+      }, 600);
+
+    } else {
+      texts.classList.add('animated');
     }
 
     var dy = texts.offsetTop - textsLi[currentIndex].offsetTop;
@@ -26,7 +34,8 @@
 
   var textBannerInit = function() {
     // rotate texts list
-    var ticker = setInterval(rotateTexts, 2000);
+    clearInterval(ticker);
+    ticker = setInterval(rotateTexts, 2000);
     rotateTexts();
   };
 
