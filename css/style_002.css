@@ -1,0 +1,325 @@
+@font-face {
+    font-family: ProximaNova-Black;
+    src: url(../../fonts/ProximaNova-Black.otf); 
+}
+@font-face {
+    font-family: ProximaNova-Bold;
+    src: url(../../fonts/ProximaNova-Bold.otf); 
+}
+@font-face {
+    font-family: ProximaNova-BoldIt;
+    src: url(../../fonts/ProximaNova-BoldIt.otf); 
+}
+@font-face {
+    font-family: ProximaNova-Extrabold;
+    src: url(../../fonts/ProximaNova-Extrabold.otf); 
+}
+@font-face {
+    font-family: ProximaNova-Light;
+    src: url(../../fonts/ProximaNova-Light.otf); 
+}
+@font-face {
+    font-family: ProximaNova-LightItalic;
+    src: url(../../fonts/ProximaNova-LightItalic.otf); 
+}
+@font-face {
+    font-family: ProximaNova-RegItalic;
+    src: url(../../fonts/ProximaNova-RegItalic.otf); 
+}
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url(../../fonts/ProximaNova-Regular.otf); 
+}
+@font-face {
+    font-family: ProximaNova-Semibold;
+    src: url(../../fonts/ProximaNova-Semibold.otf); 
+}
+@font-face {
+    font-family: ProximaNova-SemiboldItalic;
+    src: url(../../fonts/ProximaNova-SemiboldItalic.otf); 
+}
+.postWrapper {
+    padding-bottom: 30px;
+    clear: both;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 30px;
+    font-family: ProximaNova-Light;
+}
+
+.last-post {
+	border-bottom: none !important;
+}
+.postTitle {
+   /* border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DDDDDD;*/
+    margin-bottom: 15px;
+}
+
+.postTitle h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.postTitle h3 {
+    font-size: 10px;
+    margin: 0px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    color: #d42939;
+}
+.postTitle h6 a{
+	color: #d7001c;
+	font-size: 25px;
+	font-family: ProximaNova-Semibold;	
+}
+.postTitle h6 span {
+	color: #444;
+	font-size: 13px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.postContent {
+    padding-bottom: 10px;
+}
+
+.postDetails {
+
+}
+
+.postBookmarks {
+    padding-bottom: 10px;
+}
+
+.postBookmarks h4 {
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.commentWrapper {
+    padding-bottom: 15px;
+    font-family: ProximaNova-Light;
+}
+
+.commentContent {
+    color: #444444;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 20px;
+}
+
+.commentDetails {
+    margin: 15px 0;
+    padding: 0px;
+    color: #a9b2b9;
+}
+
+.commentDetails h4.username {
+    display: inline;
+    color: #d42939;
+    margin-right: 5px;
+}
+
+.postError {
+    font-size: 16px;
+}
+
+.tags {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.tags UL {
+    display: inline;
+}
+
+.tags UL LI {
+    font-weight: normal;
+    display: inline;
+    padding-right: 6px;
+}
+
+.tags h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu-tags, .menu-categories, .menu-recent {
+    margin: 5px 3px 15px 3px;
+}
+
+.block-blog .menu-tags UL LI {
+    display: inline;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.block-blog .menu-categories UL LI {
+    margin-left: 10px;
+}
+
+.block-blog .menu-recent UL LI {
+    margin-left: 10px;
+}
+
+.tagcloud {
+    /* text-align:center; */
+}
+
+.tag-count-1 {
+    font-size: 1em !important;
+}
+
+.tag-count-2 {
+    font-size: 1.2em !important;
+}
+
+.tag-count-3 {
+    font-size: 1.4em !important;
+}
+
+.tag-count-4 {
+    font-size: 1.6em !important;
+}
+
+.tag-count-5 {
+    font-size: 1.8em !important;
+}
+
+.tag-count-6 {
+    font-size: 2em !important;
+}
+
+.tag-count-7 {
+    font-size: 2em !important;
+}
+
+.tag-count-8 {
+    font-size: 2em !important;
+}
+
+.tag-count-9 {
+    font-size: 2em !important;
+}
+
+.tag-count-10 {
+    font-size: 2em !important;
+}
+
+.block-blog {
+    margin: 0;
+}
+
+.block-blog .head h4 {
+    padding-left: 20px;
+}
+
+/*
+.block-blog .head h4 {
+background-image:url(../images/icon_blog.png);
+background-repeat:no-repeat;
+}
+*/
+.block-blog .block-title strong {
+    text-align: left;
+}
+
+.postWrapper .poster {
+    display: inline;
+}
+
+.aw-post-comment .form-list label {
+    width: auto;
+    margin: 5px 0 0;
+}
+.aw-post-comment .btn_submit {
+    border-radius: 5px;
+}    
+
+.aw-post-comment input[type="text"], #center input[type="password"], #center select {
+    background: none repeat scroll 0 0 #f6f6f6;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}    
+.input-box.aw-blog-comment-area {
+    clear: both;
+    float: none;
+    width: 100%;
+}
+
+.widget-latest li {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.widget-latest h2 {
+    color: #C73615;
+    font-weight: bold;
+}
+
+A.awblog_current_comment {
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+#recaptcha_response_field {
+    left: -1px;
+}
+.comment-link, .postDetails a, .aw-blog-read-more
+{
+	color: #d42939;
+}
+.comment-link:hover, .postDetails a:hover, .aw-blog-read-more:hover {
+	color: #d42939;
+}
+
+#blog_header_banner{ background:url(../images/blog-header-bg.png) top center no-repeat;  background-size:100%; min-height:200px; }
+#blog_header_banner h2{ color:#d7001c; font-size:20px; text-transform:uppercase; font-family: ProximaNova-Semibold;
+}
+#blog_header_banner p{ color:#fff;}
+#blog_header_banner_in{  padding:20px 20px;}
+#blog_header_banner_in{padding:120px 100px 50px 120px;}
+#blog_header_banner h2{ color:#d7001c; font-size:30px;  margin-bottom:10px;}
+
+/*toolbar*/
+.toolbar-blog .pagination {
+	margin: 0;
+}
+.toolbar-blog .pagination .previous , .toolbar-blog .pagination .next {
+	display: none;
+}
+.toolbar-blog .pagination > li > a,
+.toolbar-blog .pagination > li > span {
+	padding: 0px 4px;
+	color: #d7001c;
+	background: none;
+	border: none;
+	font-family: ProximaNova-Regular;
+}
+.toolbar-blog .pagination > li > a:hover,
+.toolbar-blog .pagination > li > span:hover,
+.toolbar-blog .pagination > li > a:focus,
+.toolbar-blog .pagination > li > span:focus {
+  color: #fff;
+  background: none;
+  border: none;
+}
+.toolbar-blog .pagination > .active > a,
+.toolbar-blog .pagination > .active > span,
+.toolbar-blog .pagination > .active > a:hover,
+.toolbar-blog .pagination > .active > span:hover,
+.toolbar-blog .pagination > .active > a:focus,
+.toolbar-blog .pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: default;
+}
+

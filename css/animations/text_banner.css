@@ -1,0 +1,68 @@
+
+.std ul {
+  padding: 0;
+  margin: 0;
+}
+
+.text_banner {
+  height: 210px;
+  overflow: hidden;
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(0.3, rgba(0,0,0,1)), color-stop(0.7, rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask: url(#fade_right_svg_mask);
+}
+.text_banner ul {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.text_banner li {
+  margin-bottom: 45px;
+}
+.text_banner li p {
+  line-height: 0.8;
+  margin: 0;
+  font-size: 1.9em;
+  font-family: 'ProximaNova-Light';
+  color: #fff;
+}
+.text_banner li span {
+  line-height: 0.8;
+  display: block;
+  font-size: 100%;
+  color: #fff;
+  font-family: 'ProximaNova-Light';
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/*.text_banner li.start span,
+.text_banner li.end span {
+  font-size: 100%;
+  color: #fff;
+}*/
+.text_banner li.mid p {
+  font-size: 2em;
+}
+.text_banner li.mid span {
+  font-size: 200%;
+  color: #d7001c;
+  font-family: 'ProximaNova-Bold';
+}
+/*
+.fade-right {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(0.3, rgba(0,0,0,1)), color-stop(0.7, rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask: url(#fade_svg_mask);
+}*/
+
+
+
+
+
+
+
