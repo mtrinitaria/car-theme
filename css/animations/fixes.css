@@ -1,7 +1,10 @@
 .home_banner {
   overflow: hidden;
-  /*position: relative;
-  display: block;
-  height: calc(100% - 85px);
-  background-color: #000;*/
+}
+
+#home_content {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: 970px;
 }
