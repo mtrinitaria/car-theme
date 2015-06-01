@@ -36,12 +36,26 @@
         <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script-->
+        <script src="js/jquery-1.11.3.min.js"></script>
 
         <!-- animations -->
         <link rel="stylesheet" type="text/css" href="css/animations/fixes.css">
         <link rel="stylesheet" type="text/css" href="css/animations/text_banner.css">
+        <link rel="stylesheet" type="text/css" href="css/animations/section2.css">
+        <script type="text/javascript" src="js/animations/velocity.min.js"></script>
         <script type="text/javascript" src="js/animations/text_banner.js"></script>
+        <script type="text/javascript" src="js/animations/section2.js"></script>
+
+        <style type="text/css">
+        .section2 .floating_bg { 
+          -webkit-filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.5));
+          filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.5));
+          filter: url(shadow.svg#drop-shadow);
+          -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=6,Color='#444')";
+          filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=6, Color='#444')";
+        }
+        </style>
 
         <!-- fix gradient masker -->
         <style>
@@ -409,7 +423,14 @@ optionalZipCountries = ["HK","IE","MO","PA"];
                 </div>
 
                 <!-- section 2 -->
-                <div id="home_content">
+                <div id="home_content" class="section2">
+                  <div class="float">
+                    <img src="images/new_images/shape4.png">
+                  </div>
+                  <div class="float">
+                    <img src="images/new_images/shape5.png">
+                  </div>
+                  <div class="floating_bg"></div>
                   <div class="container">
                     <div id="home_content_in " class="clearfix">
                       <div class="col-sm-12 col-md-5 margin">
@@ -426,6 +447,10 @@ optionalZipCountries = ["HK","IE","MO","PA"];
                       </div>
                       <div class="clearfix"></div>
                     </div>
+                  </div>
+
+                  <div class="float">
+                    <img src="images/new_images/shape1.png">
                   </div>
                 </div>
 

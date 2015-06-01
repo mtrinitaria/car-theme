@@ -101,7 +101,7 @@ a{ transition:all 0.6s ease; -webkit-transition:all 0.6s ease; -moz-transition:a
 .slider_btn3 a{ display:block; text-decoration:none; color:#fff; padding:6px 30px 7px;}
 .slider_btn3 a:hover{ background:#444;}
 
-#home_content{ background:url(../images/footerbg.jpg); margin-top:-40px; padding-bottom:50px;  min-height:500px; padding-top:100px; }
+/*#home_content{ background:url(../images/footerbg.jpg); margin-top:-40px; padding-bottom:50px;  min-height:500px; padding-top:100px; }*/
 #home_content h1{ color:#d42939; font-size:33px; font-weight:normal; background:url(../images/home_h1bg.png) bottom left no-repeat; padding-bottom:20px; font-family: ProximaNova-Light; line-height: 50px;
 }
 #home_content h1 strong {
